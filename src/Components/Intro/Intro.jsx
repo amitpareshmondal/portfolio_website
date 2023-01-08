@@ -10,7 +10,10 @@ import boy from "../../img/boy.png";
 import thumbup from "../../img/thumbup.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import Crown from "../../img/crown.png";
+import { motion } from "framer-motion"
+
 function Intro(){
+    const transition={duration:2,type:"spring"}
     return(
         <div className='intro'>
             <div className='i-left'>
@@ -30,13 +33,28 @@ function Intro(){
                 <img src={Vector1}/>
                 <img src={Vector2}/>
                 <img src={boy}/>
-                <img src={glassesimoji}/>
-                <div style={{top:"4%", left:"68%", position:"absolute"}}>
+                <motion.img 
+                initial={{left:"-36%"}}
+                whileInView={{left:"-24%"}}
+                transition={transition}
+
+                src={glassesimoji}/>
+                <motion.div 
+                initial={{top:"-4%" ,left:"74%"}}
+                whileInView={{left:"68%"}}
+                transition={transition}
+                style={{top:"4%", left:"68%", position:"absolute"}}
+                className="floating-div">
                 <Floatingdiv image={Crown} txt1="Web" txt2="Developer"/>
-            </div>
-            <div style={{top:"18rem", left:"0rem"}}>
+            </motion.div>
+            <motion.div 
+            initial={{left:"9rem", top:"18rem" }}
+            whileInView={{left:"0rem"}}
+            transition={transition}
+            style={{top:"18rem", left:"0rem"}}
+            className="floating-div">
                 <Floatingdiv image={thumbup} txt1="Best Design" txt2="Award" />
-            </div>
+            </motion.div>
             <div className='blur' style={{background:"rgb:(238 210 255)"}}></div>
             <div className='blur' style={{background:"#C1F5FF", top:"17rem",width:"21rem", height:"11rem", left:"-9rem"}}></div>
             </div>
