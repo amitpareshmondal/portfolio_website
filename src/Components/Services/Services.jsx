@@ -34,7 +34,7 @@ function Services(){
                 whileInView={{ left: "14rem" }}
                 transition={transition}
                 style={{left:"14rem"}}>
-                <Card emoji={Heartemoji} heading="Design" details="figma, Sketch, Adobe, Photoshop"/>
+                <Card emoji={Heartemoji} heading="Web Development" details="I can create any sort of website according to your need"/>
                 </motion.div>
                 <motion.div 
                     initial={{ left: "-11rem", top: "12rem" }}

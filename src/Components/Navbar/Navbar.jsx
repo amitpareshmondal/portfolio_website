@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import Toggle from "../Toggle/Toggle";
 import { Link } from "react-scroll";
-
+import AnchorLink from "react-anchor-link-smooth-scroll";
 function Navbar(){
     return(
         <div className="n-wrapper">
@@ -32,13 +32,16 @@ function Navbar(){
                 References
               </Link></li>
                         <li>
-                        <Link activeClass="active" to="testimonials" spy={true} smooth={true}>
+                        <Link activeClass="active" to="testimonial" spy={true} smooth={true}>
                 Testimonials
               </Link>
                         </li>
                     </ul>
                 </div>
-                <button className="button n-button">Contact</button>
+                <AnchorLink href='#contact'>
+                <button className="button n-button" to="contact">Contact</button>
+                </AnchorLink>
+               
             </div>
 
         </div>
