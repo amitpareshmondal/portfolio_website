@@ -1,10 +1,10 @@
 import React from "react";
 import {Swiper,SwiperSlide} from "swiper/react";
 import "./Portfolio.css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import Sidebar from "../../img/Quora.jpg";
+import Ecommerce from "../../img/Games.jpg";
+import HOC from "../../img/face.jpg";
+import MusicApp from "../../img/github.jpg";
 import "swiper/css";
 function Portfolio(){
     return(
@@ -18,7 +18,8 @@ function Portfolio(){
             className="portfolio-slider"
             >
                 <SwiperSlide>
-                    <img src={Sidebar} ></img>
+                    <a href="https://github.com/amitpareshmondal/sem5_project/tree/master" target="_blank"> <img src={Sidebar} ></img></a>
+                   
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={Ecommerce} ></img>
@@ -27,7 +28,10 @@ function Portfolio(){
                     <img src={HOC} ></img>
                 </SwiperSlide>
                 <SwiperSlide>
+                    <a href="https://github.com/amitpareshmondal" target="_blank">
                     <img src={MusicApp} ></img>
+                    </a>
+                    
                 </SwiperSlide>
             </Swiper>
         </div>
