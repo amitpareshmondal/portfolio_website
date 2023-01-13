@@ -15,12 +15,12 @@ function Services(){
         <div className="services" id="Services">
             {/*Left Side */}
             <div className="awesome">
-                <span>My Awesome</span>
-                <span>Services</span>
+                <span>My Tech</span>
+                <span>Stack</span>
                 <span>
-                    Lorem Ipsum is simply a dummy text of printing of printing lorem
+                    Feel free to message if you need help in any of the 
                     <br/>
-                    ispum is simpley dummy text                
+                    mentioned domains           
                 </span>
                 <a href={Resume} download>
                 <button className="button s-button">Download CV</button>
@@ -34,21 +34,21 @@ function Services(){
                 whileInView={{ left: "14rem" }}
                 transition={transition}
                 style={{left:"14rem"}}>
-                <Card emoji={Heartemoji} heading="Web Development" details="I can create any sort of website according to your need"/>
+                <Card emoji={Heartemoji} heading="Frontend" details="ReactJS, HTML, CSS, Bootstrap, TailwindCSS, GSAP animations ..."/>
                 </motion.div>
                 <motion.div 
                     initial={{ left: "-11rem", top: "12rem" }}
                     whileInView={{ left: "-4rem" }}
                     transition={transition}
                 style={{top:"12rem", left:"-4rem"}}>
-                <Card emoji={Glasses} heading="Developer" details="HTML,CSS,JS"/>
+                <Card emoji={Glasses} heading="SEO" details="Rank websites on Google and drive more traffic to the website"/>
                 </motion.div>
                 <motion.div 
                  initial={{ top: "19rem", left: "25rem" }}
                  whileInView={{ left: "12rem" }}
                  transition={transition}
                 style={{top:"19rem", left:"12rem"}}>
-                <Card emoji={Humble} heading="UI/UX" details="Lorem Ipsum abra ka dabra gilli gilli chu"/>
+                <Card emoji={Humble} heading="Backend" details="Can make awesome Rest API's using Nodejs and Express"/>
                 </motion.div>
                 <div className="blur s-blur2" style={{background:"var(--purple)"}}></div>
             </div>

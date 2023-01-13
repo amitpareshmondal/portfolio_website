@@ -1,11 +1,11 @@
 import React from "react";
 import { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Upwork from "../../img/webdev1.png";
+import Fiverr from "../../img/portfolio1.png";
+import Amazon from "../../img/fast.png";
+import Shopify from "../../img/seo.png";
+import Facebook from "../../img/wordpress3.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 function Works(){
@@ -14,16 +14,18 @@ function Works(){
     return(
         <div className="works" id="works">
              <div className="awesome">
-                <span style={{ color: darkMode ? "white" : "" }}>Works for All These</span>
-                <span>Brands & Clients</span>
+                <span style={{ color: darkMode ? "white" : "" }}>My Awesome </span>
+                <span>Services</span>
                 <span>
-                    Lorem Ipsum is simply a dummy text of printing of printing lorem
+                I specialize in creating custom portfolio websites tailored to your specific needs.
                     <br/>
-                    ispum is simpley dummy text
                     <br/>
-                    Lorem Ipsum is simply a dummy text of printing of printing lorem
+                    As a full stack web developer, I specialize in creating custom websites accoring to your need               <br/>
                     <br/>
-                    Lorem Ipsum is simply a dummy text of printing of printing lorem                
+                    Setup a Blog on Wordpress or Blogger with hosting support and SEO
+                    <br/>
+                    <br/>
+                    Can make webstories for your website to drive more traffic
                 </span>
               
                 <button className="button s-button">Hire Me</button>
