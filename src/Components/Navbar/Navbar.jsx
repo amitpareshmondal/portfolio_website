@@ -20,20 +20,20 @@ function Navbar(){
                         </li>
                         <li>
                         <Link activeClass="active" to="Services" spy={true} smooth={true}>
-                Services
+                TechStack
               </Link>
                         </li>
                         <li>
                         <Link activeClass="active" to="works" spy={true} smooth={true}>
-                Experience
+                Services
               </Link>
                         </li>
-                        <li><Link activeClass="active" to="portfolio" spy={true} smooth={true}>
-                References
+                        <li><Link activeClass="active" to="experience" spy={true} smooth={true}>
+                Experience
               </Link></li>
                         <li>
-                        <Link activeClass="active" to="testimonial" spy={true} smooth={true}>
-                Testimonials
+                        <Link activeClass="active" to="portfolio" spy={true} smooth={true}>
+                        Projects
               </Link>
                         </li>
                     </ul>

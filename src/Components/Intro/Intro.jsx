@@ -20,7 +20,7 @@ function Intro(){
                 <div className='i-name'>
                     <span>Hy! I Am</span>
                     <span>Amit Mondal</span>
-                    <span>A passionate MERN stack developer, Blogger and content creator , love to collaborate, learn and build new things</span>
+                    <span>A passionate Fullstack MERN developer, Blogger and content creator, love to collaborate, learn and build new things</span>
                 </div>
                 <AnchorLink href='#contact'>
                 <button className='i-button button'>Hire Me</button>
@@ -64,7 +64,7 @@ function Intro(){
             transition={transition}
             style={{top:"18rem", left:"0rem"}}
             className="floating-div">
-                <Floatingdiv image={thumbup} txt1="Best Design" txt2="Award" />
+                <Floatingdiv image={thumbup} txt1="SEO" txt2="" />
             </motion.div>
             <div className='blur' style={{background:"rgb:(238 210 255)"}}></div>
             <div className='blur' style={{background:"#C1F5FF", top:"17rem",width:"21rem", height:"11rem", left:"-9rem"}}></div>
