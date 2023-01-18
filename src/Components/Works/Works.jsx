@@ -8,6 +8,7 @@ import Shopify from "../../img/seo.png";
 import Facebook from "../../img/wordpress3.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 function Works(){
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
@@ -27,9 +28,10 @@ function Works(){
                     <br/>
                     Can make webstories for your website to drive more traffic
                 </span>
-              
+                <AnchorLink href='#contact'>
                 <button className="button s-button">Hire Me</button>
-                
+                </AnchorLink>
+               
                 <div className="blur s-blur1" style={{background:"#ABF1FF94"}}></div>
             </div>
             {/* Right Side */}
