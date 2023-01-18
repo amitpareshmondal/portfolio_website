@@ -6,7 +6,7 @@ import Linkedin from "../../img/linkedin.png";
 import Insta from "../../img/instagram.png";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/amit.png";
+import boy from "../../img/AmitMondal.png";
 import thumbup from "../../img/thumbup.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import Crown from "../../img/crown.png";
