@@ -20,7 +20,7 @@ function Navbar(){
                         </li>
                         <li>
                         <Link activeClass="active" to="Services" spy={true} smooth={true}>
-                TechStack
+                Skills
               </Link>
                         </li>
                         <li>

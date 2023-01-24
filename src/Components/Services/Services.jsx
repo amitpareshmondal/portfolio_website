@@ -34,7 +34,7 @@ function Services(){
                 whileInView={{ left: "14rem" }}
                 transition={transition}
                 style={{left:"14rem"}}>
-                <Card emoji={Heartemoji} heading="Frontend" details="ReactJS, HTML, CSS, Bootstrap, TailwindCSS, GSAP animations ..."/>
+                <Card emoji={Heartemoji} heading="Frontend" details="Building stunning Frontend w/ ReactJS & NextJS"/>
                 </motion.div>
                 <motion.div 
                     initial={{ left: "-11rem", top: "12rem" }}
@@ -48,7 +48,7 @@ function Services(){
                  whileInView={{ left: "12rem" }}
                  transition={transition}
                 style={{top:"19rem", left:"12rem"}}>
-                <Card emoji={Humble} heading="Backend" details="Can make awesome Rest API's using Nodejs and Express"/>
+                <Card emoji={Humble} heading="Backend" details="Creating efficient and secure REST APIs using Node.js & Express."/>
                 </motion.div>
                 <div className="blur s-blur2" style={{background:"var(--purple)"}}></div>
             </div>

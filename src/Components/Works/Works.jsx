@@ -18,7 +18,11 @@ function Works(){
                 <span style={{ color: darkMode ? "white" : "" }}>My Awesome </span>
                 <span>Services</span>
                 <span>
-                I specialize in creating custom portfolio websites tailored to your specific needs.
+                As a Full Stack Developer, I specialize in building custom websites <br/>
+                 tailored to your unique needs. Additionally, I offer services such as <br/> 
+                 setting up a blog on Wordpress or Blogger with hosting and SEO support and <br/> 
+                 creating engaging web stories to drive more traffic to your website.
+                {/* I specialize in creating custom portfolio websites tailored to your specific needs.
                     <br/>
                     <br/>
                     As a full stack web developer, I specialize in creating custom websites accoring to your need               <br/>
@@ -26,7 +30,7 @@ function Works(){
                     Setup a Blog on Wordpress or Blogger with hosting support and SEO
                     <br/>
                     <br/>
-                    Can make webstories for your website to drive more traffic
+                    Can make webstories for your website to drive more traffic */}
                 </span>
                 <AnchorLink href='#contact'>
                 <button className="button s-button">Hire Me</button>
