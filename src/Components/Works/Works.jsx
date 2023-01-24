@@ -18,8 +18,11 @@ function Works(){
                 <span style={{ color: darkMode ? "white" : "" }}>My Awesome </span>
                 <span>Services</span>
                 <span>
-                As a Full Stack Developer, I specialize in building custom websites <br/>
-                 tailored to your unique needs. Additionally, I offer services such as <br/> 
+                As a Full Stack Developer, I specialize in building custom websites 
+                 tailored to your unique needs. <br/>
+                 I Can also make efficient and secure REST APIs using Node.js & Express
+                 <br/>
+                 Additionally, I offer services such as <br/> 
                  setting up a blog on Wordpress or Blogger with hosting and SEO support and <br/> 
                  creating engaging web stories to drive more traffic to your website.
                 {/* I specialize in creating custom portfolio websites tailored to your specific needs.
